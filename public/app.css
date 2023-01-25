@@ -1,0 +1,218 @@
+/* Copyright: scobiform.com */
+
+/* Main Elements */
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #100123;
+    padding: 0.7vw;
+}
+
+/* Viewport Heights */
+.min-h-screen-77{
+    height: 77vh
+}
+
+.min-h-screen-91{
+    height: 91vh
+}
+
+/* Header */
+header{
+    color: #eee;
+    grid-template-columns: 7vw 93vw;
+}
+
+.logo {
+    width: 7vw;
+    height: 7vh;
+    grid-column: 1/2;
+}
+
+/* Navigation */
+nav {
+    color: #eee;
+    grid-column: 2/2;
+}
+
+nav a {
+    color: #eee;
+    background-color: #100142;
+    padding: 0.7vw;
+    border-radius: 0.7vw;
+}
+
+nav a:hover {
+    color: #100142;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.welcomeUser {
+    color: #eee;
+}
+
+.logOut {
+    height: 7vh;
+    grid-column: 2/2;
+}
+
+.logOut form{
+    display: flex;
+    width: fit-content;
+}
+
+.logOut button {
+    color: #eee;
+    background-color: #100142;
+    padding: 0.7vw;
+    border-radius: 0.7vw;
+}
+
+.logOut button:hover {
+    color: #100142;
+    background-color: #eee;
+    cursor: pointer;
+    padding: 0.7vw;
+    border-radius: 0.7vw;
+}
+
+/* Article */
+article {
+    flex-flow: wrap;
+    height: fit-content;
+}
+
+article h1 {
+    margin-top: 0VH;
+    margin-bottom:0vh;
+}
+
+/* Footer */
+footer{
+    color: #eee;
+}
+
+/* Headlines */
+h1 {
+    color: #eee;
+    padding: 1vw;
+}
+
+/* Job Ads - Detail */
+.jobDetail {
+    color:#eee;
+    white-space: pre-line;
+    padding: 1vw;
+}
+
+.jobExcerpt {
+    color:#eee;
+    padding: 1vw;
+}
+
+.metaDetail {
+    padding: 1vw;
+    margin: 0;
+    color: #eee;
+}
+
+.metaDetail a {
+    color: #eee;
+    text-decoration: underline;
+}
+
+.marginTopDetail{
+    margin-top: 0vh;
+}
+
+.jobDetailh1{
+    margin-top: 0VH;
+}
+
+.jobAdImage img {
+    width: 7vw;
+    height: 7vw;
+}
+
+/* Forms */
+.registerForm {
+    width: 42vw;
+    display: grid;
+    margin: 0 auto;
+}
+
+.registerForm form {
+    width: 42vw;
+}
+
+.registerForm label{
+    display: flex;
+    color: #eee;
+}
+
+button{
+    background-color: #100142;;
+    color: #eee;
+    padding: 2.1vw;
+    cursor: pointer;
+    display: flex;
+    margin-top: 1.4vh;
+    /*width: 100%;*/
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.7vw;
+    border: 0;
+}
+
+button:hover{
+    background-color: #eee;
+    color: #100142;;
+    padding: 2.1vw;
+}
+
+input{
+    width:100%;
+    height: 4.2vh;
+    border-radius: 0.7vw;
+}
+
+input[type="text" i], input[type="email" i]  {
+    padding: 1vw;
+}
+
+input[type="password" i] {
+    -webkit-text-security: disc !important;
+    padding: 1vw;
+}
+
+/* Jobs Form */
+.jobsForm {
+    width: 42vw;
+    display: grid;
+    margin: 0 auto;
+}
+
+.jobsForm form {
+    width: 42vw;
+}
+
+.jobsForm label {
+    color:#eee;
+    display:flex;
+}
+
+.jobsForm textarea {
+    height: 21vw;
+    width: 43vw!important;
+}
+
+textarea.bodyText{
+    width:42vw;
+}
