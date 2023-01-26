@@ -22,7 +22,7 @@
             </div>
 
             <div class="jobDetail">
-                {{ $job->body }}
+                {!!$job->body !!}
             </div>
 
         </article>

@@ -8,7 +8,7 @@
             </h1>
             <ul>
             @foreach($companies as $company)
-                <li><a href="/company/{{ $company->id }}">{{ $company->name }}</a> - <a href="/company/{{ $company->id }}/edit">Edit</a></li>
+                <li><a href="/company/{{ $company->id }}/edit">{{ $company->name }}</a> - <a href="/company/{{ $company->id }}/edit">Edit</a></li>
             @endforeach
             </ul>
     </div>
