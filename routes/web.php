@@ -64,6 +64,7 @@ Route::post('jobs', [JobController::class, 'store']);
 Route::get('job/edit', [EditJobController::class, 'index']);
 Route::get('jobs/{job:slug}/edit', [EditJobController::class, 'edit']);
 Route::patch('job/{job:slug}/edit', [EditJobController::class, 'update']);
+Route::delete('job/{job:slug}/edit', [EditJobController::class, 'destroy']);
 
 // Company -- CompanyController
 Route::get('company/create', [CompanyController::class, 'create']);
@@ -71,7 +72,6 @@ Route::post('companies', [CompanyController::class, 'store']);
 Route::get('company/edit', [EditCompanyController::class, 'index']);
 Route::get('company/{company:id}/edit', [EditCompanyController::class, 'edit']);
 Route::patch('companies/{company:id}/edit', [EditCompanyController::class, 'update']);
-
 
 // Register -- RegisterController
 Route::get('register', [RegisterController::class, 'create'])->middleware('guest');

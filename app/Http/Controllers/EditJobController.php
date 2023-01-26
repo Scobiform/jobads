@@ -57,6 +57,12 @@ class EditJobController extends Controller
 
         $job->update($attributes);
 
-        return back()->with('success', 'Company updated');
+        return back()->with('success', 'Job updated');
+    }
+
+    public function destroy(Job $job)
+    {
+        $job->delete();
+        return back()->with('success', 'Job Deleted');
     }
 }

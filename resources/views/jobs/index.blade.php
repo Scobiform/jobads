@@ -9,7 +9,13 @@
 
             <ul>
             @foreach($jobs as $job)
-                <li><a href="/jobs/{{ $job->slug }}">{{ $job->title }}</a> - <a href="/jobs/{{ $job->slug }}/edit">Edit</a></li>
+                <li><a href="/jobs/{{ $job->slug }}">{{ $job->title }}</a> - <a href="/jobs/{{ $job->slug }}/edit">Edit</a>
+                    <form method="POST" action="/job/{{ $job->slug }}/edit">
+                        @csrf
+                        @method('DELETE')
+                        <button>Delete</button>
+                    </form>
+                </li>
             @endforeach
             </ul>
 
