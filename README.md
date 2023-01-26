@@ -1,7 +1,7 @@
-Case Study "Job Portal"
+Case Study "Job Portal" - jobads.scobiform.com
 
-- Entity Relationship Model (Companies, Users, Jobs)
-- Page overview (Navigation tree)
+![alt text](https://jobads.scobiform.com/images/jobads.jpg)
+
 
 
 
