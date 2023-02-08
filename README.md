@@ -1,6 +1,6 @@
-Case Study "Job Portal" - jobads.scobiform.com
+Case Study "Job Portal"
 
-![alt text](https://jobads.scobiform.com/images/jobads.jpg)
+![alt text](https://github.com/Scobiform/jobads/blob/master/public/images/jobads.jpg
 
 
 
